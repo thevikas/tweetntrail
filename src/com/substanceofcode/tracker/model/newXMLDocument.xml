@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+    Document   : newXMLDocument.xml
+    Created on : 27 December, 2010, 4:33 PM
+    Author     : vikas
+    Description:
+        Purpose of the document follows.
+
+        poi attributes that are optional
+            caption = prefix = XX
+            inputType = 0 = NN
+            rightleft = 0 = 0/1
+
+        poi attributes that are reaquired
+            key = NN
+            prefix = XX
+-->
+
+<root>
+    <firstpage>
+        <poi key="1" prefix="Sig" caption="Traffic Signal"/>
+        <poi key="2" prefix="Fuel" rightleft="1"/>
+        <poi key="3" prefix="Bus Stand" rightleft="1"/>
+        
+        <poi key="4" prefix="Road Type">
+            <poi key="1" prefix="HTrunk"/>
+            <poi key="2" prefix="HResi"/>
+            <poi key="3" prefix="HExpress"/>
+            <poi key="9" prefix="Toll"/>
+        </poi>
+
+        <poi key="5" prefix="Area">
+            <poi key="1" prefix="Platform Start"/>
+            <poi key="2" prefix="Platform End"/>
+            <poi key="3" prefix="Bridge Start"/>
+            <poi key="4" prefix="Bridge End"/>
+            <poi key="3" prefix="Tunnel Start"/>
+            <poi key="4" prefix="Tunnel End"/>
+        </poi>
+
+        <poi key="6" prefix="POI">
+            <poi key="1" prefix="PostBox" rightleft="1"/>
+            <poi key="2" prefix="Pharmacy" rightleft="1"/>
+            <poi key="3" prefix="Hospital" rightleft="1"/>
+            <poi key="4" prefix="School" rightleft="1"/>
+            <poi key="3" prefix="ATM" rightleft="1"/>
+        </poi>
+
+        <poi key="7" prefix="Cut"/>
+    </firstpage>
+</root>
