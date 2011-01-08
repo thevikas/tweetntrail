@@ -1,0 +1,10 @@
+package com.sugree.twitter;
+
+public class PrivateData {
+	public static final String TWEETPHOTO_API_KEY = "00112233-4455-6677-8899-aabbccddeeff";
+	public static final String TWITPIC_API_KEY = "00112233445566778899aabbccddeeff";
+	public static final String IMAGESHACK_API_KEY = "00112233445566778899aabbccddeeff00112233";
+	public static final String MOBYPICTURE_API_KEY = "0011223344556677";
+	public static final String OAUTH_CONSUMER_KEY = "00112233445566778899aa";
+	public static final String OAUTH_CONSUMER_SECRET = "00112233445566778899aabbccddeeffgghhiijjkkl";
+}
